@@ -30,8 +30,8 @@ header {
 }
 
 .logo {
-    background: url("../images/mamaafrika.jpg");
-    background-position: center;
+    background: url("images/mama.afrika.jpg");
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
