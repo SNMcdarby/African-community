@@ -20,6 +20,22 @@
 .ui-menu-color-download{
     background-color: #525252;
 }
+/*-------------------------------------------------------------Special padding/margins/text */
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.genral-sub {
+    font-family: "Exo",sans-serif;
+    font-weight: 300;
+    color: #fafafa
+}
+
 /*-------------------------------------------------------------Headings*/
 header {
     margin: 0;
@@ -102,8 +118,15 @@ header {
 }
 /*-------------------------------------------------------------Hover.css*/
 
-.hvr-sweep-to-bottom: before {
-   background: rgba (0, 0, 0, 0.2);
-   height: 120px;
+.hvr-sweep-to-bottom::before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
 
+/*-------------------------------------------------------------Footer*/
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
