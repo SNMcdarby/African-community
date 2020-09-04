@@ -31,9 +31,6 @@
 }
 
 
-
-
-
 /*-------------------------------------------------------------Special padding/margins/text */
 h1,
 h2,
@@ -177,7 +174,7 @@ footer {
 .social-links {
     padding-bottom: 15px;
 }
-.social-links li a i{
+.social-links li a i {
     width: 32px;
     height: 32px;
     padding: 12px 0;
@@ -212,6 +209,7 @@ footer {
 margin-bottom: 15px;
 }
 /*-------------------------------------------------------------Personal info*/
+
 .personal-info-item {
   margin-bottom: 20px;
   display: block;
@@ -228,6 +226,7 @@ margin-bottom: 15px;
     margin: 0;
 }
 .personal-info-item .key {
+    width: 30%;
     margin-right: 21px;
     padding-top: 2px;
     vertical-align: top
@@ -245,7 +244,7 @@ margin-bottom: 15px;
     height: 25px;
     margin-bottom: 4px;
 }
-.progress-type{
+.progress-type {
     position: absolute;
     left: 0px;
     weight-font: 400;
@@ -253,50 +252,58 @@ margin-bottom: 15px;
     color: #fafafa;
     background-color: rgba(25, 25, 25, 0.2);
 }
-.progress-section{
+.progress-section {
     margin: 40px, 20px; 
 }
+
 /*-------------------------------------------------------------Work history*/
+
+
 .history-heading {
-    color: #fafafa;
-    margin-bottom: 50px;
+    color: #fafafa ;
+    margin-bottom: 50px ;
 }
+
 .timeline-item {
-    padding: 4em, 2em, 0em, 2em;
+    padding: 4em, 2em, 0em, 2em ;
     position: relative;
-    color: #fafafa;
-    border-left: 1px solid;
+    color: #fafafa ;
+    border-left: 1px solid ;
 }
+
 .timeline-item p {
     padding: 0;
     margin: 0;
 }
+
 .timeline-item:before {
     content: attr(data-base);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-family: "Exo",san-serif;
-    font-weight:500;
-    font: size 0.8em;
-    padding: 0;
-    margin: 0;
+    position: absolute ;
+    left: 2.5em ;
+    top: 3em ;
+    display: block ;
+    font-family: "Exo",san-serif ;
+    font-weight:500 ;
+    font: size 0.8em ;
+    padding: 0 ;
+    margin: 0 ;
 }
-.timeline-item:after{
+
+.timeline-item: after{
     width: 12px;
     height: 12px;
     display: block;
     top: 2.4em;
     position: absolute;
-    left: -6px;
+    left: 6px;
     border-radius: 12px;
     content: '';
-    background: #fafafa;
+    background color: #fafafa;
 }
 
 
 /*-------------------------------------------------------------Contact form*/
+
 .contact-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
@@ -315,8 +322,9 @@ button[type="submit"] {
     background-color: #e84610;
 }
 /*-------------------------------------------------------------Media Queries */
+
 @media(min-width: 992px) {
-    .center-form {
+    .center-form 
     padding-top: 30px;
     min-height: 240px;
     margin: 0 auto;
