@@ -60,11 +60,14 @@ h4 {
     display: table-cell;
     padding: 0, 30px, 30px;
     float: none;
+} 
+.history-heading,
+.section-heading {
+    font-family: "Exo",sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    scroll-margin-bottom: 40px;
 }
-background-color{
-    color: rgb(241, 222, 167);
-}
-
 /*-------------------------------------------------------------Headings*/
 header {
     margin: 0;
@@ -134,15 +137,6 @@ header {
     color: #fafafa;
     font-size: 26px;
 }
-.history-heading {
-    color: #fafafa;   
-}
-.section-heading {
-    font-family: "Exo",sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    scroll-margin-bottom: 40px;
-}
 .menuitem span{
     display: block;
     width: 100;
@@ -155,7 +149,7 @@ header {
 }
 /*-------------------------------------------------------------Hover.css*/
 
-.hvr-sweep-to-bottom::before {
+.hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
@@ -245,7 +239,6 @@ margin-bottom: 15px;
     position: relative;
     width: 60%;
 }
-
 /*-------------------------------------------------------------Skills */
 .progress {
     position: relative;
@@ -268,7 +261,7 @@ margin-bottom: 15px;
     color: #fafafa;
     margin-bottom: 50px;
 }
-.timeline-item{
+.timeline-item {
     padding: 4em, 2em, 0em, 2em;
     position: relative;
     color: #fafafa;
@@ -300,10 +293,7 @@ margin-bottom: 15px;
     border-radius: 12px;
     content: '';
     background: #fafafa;
-
 }
-
-
 
 
 /*-------------------------------------------------------------Contact form*/
