@@ -61,13 +61,6 @@ h4 {
     padding: 0, 30px, 30px;
     float: none;
 }
-
-.section-heading {
-    font-family: "Exo",sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    scroll-margin-bottom: 40px;
-}
 background-color{
     color: rgb(241, 222, 167);
 }
@@ -141,7 +134,15 @@ header {
     color: #fafafa;
     font-size: 26px;
 }
-
+.history-heading {
+    color: #fafafa;   
+}
+.section-heading {
+    font-family: "Exo",sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    scroll-margin-bottom: 40px;
+}
 .menuitem span{
     display: block;
     width: 100;
@@ -251,18 +252,17 @@ margin-bottom: 15px;
     height: 25px;
     margin-bottom: 4px;
 }
-.progress-type {
+.progress-type{
     position: absolute;
     left: 0px;
-    font-weight: 400;
-    padding: 3px, 30px, 2px, 10px;
+    weight-font: 400;
+    padding: 3px 30px 2px 10px;
     color: #fafafa;
     background-color: rgba(25, 25, 25, 0.2);
 }
-.progress-section {
-  margin: 40px, 20px;
+.progress-section{
+    margin: 40px, 20px; 
 }
-
 /*-------------------------------------------------------------Work history*/
 .history-heading {
     color: #fafafa;
@@ -274,6 +274,38 @@ margin-bottom: 15px;
     color: #fafafa;
     border-left: 1px solid;
 }
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+.timeline-item:before {
+    content: attr(data-base);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo",san-serif;
+    font-weight:500;
+    font: size 0.8em;
+    padding: 0;
+    margin: 0;
+}
+.timeline-item:after{
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+
+}
+
+
+
+
 /*-------------------------------------------------------------Contact form*/
 .contact-heading {
     font-family: "Exo", sans-serif;
@@ -299,5 +331,4 @@ button[type="submit"] {
     min-height: 240px;
     margin: 0 auto;
     max-width: 50;
-
 }
