@@ -239,12 +239,12 @@ margin-bottom: 15px;
     width: 60%;
 }
 /*-------------------------------------------------------------Skills */
-.progress {
+.progress{
     position: relative;
     height: 25px;
     margin-bottom: 4px;
 }
-.progress-type {
+.progress-type{
     position: absolute;
     left: 0px;
     weight-font: 400;
@@ -252,7 +252,7 @@ margin-bottom: 15px;
     color: #fafafa;
     background-color: rgba(25, 25, 25, 0.2);
 }
-.progress-section {
+.progress-section{
     margin: 40px, 20px; 
 }
 
