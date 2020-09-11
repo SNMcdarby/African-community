@@ -30,6 +30,16 @@
   background-color: #9b59b6;
 }
 
+/*-----------------------------------------------------------------*/
+
+body{ 
+    background image : url("../images/r1.jpg");
+    background position : repeat;
+}
+
+
+
+
 
 /*-------------------------------------------------------------Special padding/margins/text */
 h1,
