@@ -43,12 +43,12 @@
  -  A user friendly site that shows diversity of african fashion that is beging to emerge into our modern culture.
   With images and ideas that can be implenented into the fashion and design in this modern age.
     - Making sure that the necessary pages are woking
-    - Creating an update of the program and images to meet the customers and clients needs
-    - Checking for a userble friendly site that and designing pages
-    - Making the software is easily accessible to the user usung mobile devices
-    - Performance
-    - Updating designs and images
+    - Creating an update of the program and images to meet the clients needs
+    - Updating our knowledge in a user friendly site
+    - Making the software easily accessible to the user by designing our site in responsive devices such as a mobile phone. 
+    - checking our performance
     - Getting feedback information from our users
+    - Displaying modern images in our pages that will capture different demographics
 
 ### 4.Description
 --------------------
