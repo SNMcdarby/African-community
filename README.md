@@ -27,7 +27,7 @@
 - Code validity
 - Troubleshooting
 - Known bugs
-- Contact information for distributors or programmers
+- Contact information for programmers
 - Deployment
 - Creditors
 - Acknowledgements 
