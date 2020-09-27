@@ -14,7 +14,7 @@
 
 ### 2.Table of content
 ---------------------
-- overview
+- Overview
 - Description
 - User story
 - UX
@@ -27,7 +27,7 @@
 - Code validity
 - Troubleshooting
 - Known bugs
-- Contact information for distibuters or programmers
+- Contact information for distributors or programmers
 - Deployment
 - Creditors
 - Acknowledgements 
@@ -88,7 +88,7 @@
     2. Kitenge
 
     3. Contact us
-    
+
     4. Images
 
 
