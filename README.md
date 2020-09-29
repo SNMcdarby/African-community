@@ -2,11 +2,9 @@
 
 # Mama Afrika
 -------------
-###  Is platform that show-cases different authenticity in modern african fashion designs 
-### originally made and desinged by african designers using  african farbics such as Kitenge,Ankara,Kikoy,etc;
- ### Some of the this countries are; Kenya, Uganda, Tanzania, Sudan, 
- ### Nigeria, Cameroon, Ghana, Senegal, Liberia, Rwanda, and Democratic Republic of the Congo.
+###  Is platform that show-cases different authenticity in modern African fashion designs 
 
+/* made a few changes to edit 
 
 ## 1.KITENGE 
 ------------
@@ -42,7 +40,7 @@
 ### 3.Overview
 -------------
 
- -  A user friendly site that shows diversity of african fashion that is beging to emerge into our modern culture.
+ -  A user friendly site that shows diversity of African fashion that is beging to emerge into our modern culture.
   With images and ideas that can be implenented into the fashion and design in this modern age.
     - Making sure that the necessary pages are woking
     - Creating an update of the program and images to meet the clients needs
