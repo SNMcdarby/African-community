@@ -9,16 +9,16 @@
     background-color: #8d3c62;
 }
 .ui-menu-color-kitenge{
-    background-color: #9c7780;
+    background-color: #ee97d4;
  }
 .ui-menu-color-contact{
-    background-color: #b87b9cf5;
+    background-color: rgb(247, 191, 191);
 }
 .ui-menu-color-fashiondesign {
-    background-color: #683756de;
+    background-color: #da62aede;
 }
 .bg-color-three-reasons{
-    background: #fff;
+    background: rgb(250, 193, 193);
 }
 .bg-color-personal-info {
  background: #f0d7d7;
@@ -29,8 +29,15 @@
 .bg-color-work-history{
   background-color: #9b7d8d;
 }
-/*----------------------------------*/
-
+/*----------------------------------body*/
+body{margin:0;
+font-size:1rem;
+font-weight:400;
+line-height:1.5;
+color: #212526;
+text-align:left;
+background-color: #fff;
+}
 /*-------------------------------------------------------------Special padding/margins/text */
 h1,
 h2,
@@ -132,7 +139,7 @@ header {
 .menuitem a i {
     padding-top: 22px;
     display: block;
-    color: #eeebec;
+    color: #3a4607;
     font-size: 26px;
 }
 .menuitem span{
@@ -242,7 +249,7 @@ margin-bottom: 15px;
 /*-------------------------------------------------------carosel*/
 .carousel-indicators{
     position: absolute;
-    right: 0;
+    right: 25;
     bottom:10px;
     left: 0;
     z-index: 15;
@@ -250,9 +257,9 @@ margin-bottom: 15px;
     display: -ms-flexbox;
     -webkit-box-pack: center;
     justify-content: center;
-    padding-left: 0;
-    margin-right: 15%;
-    margin-left:15%
+    padding-left: 25;
+    margin-right: 45%;
+    margin-left:45%
     list-style: none;
     }
 .carousel-item{
@@ -274,6 +281,27 @@ margin-bottom: 15px;
     width: 100%;
     overflow: hidden;
 }
+.carousel-indicators
+.active{
+    background-color: #fff;
+}
+.carousel-indicators li{
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-color: #fff;
+}
+dl ol ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.carousel li {::before-element
 *,::after,::before {
     box-sizing: border-box;
 }
@@ -287,20 +315,69 @@ img{
     vertical-align: middle;
     border-style:none;
 }
-@media  (min-width:576px)
 .bd-afrika{
-    padding: 1.5rem;
-    margin-right: 0;
-    margin-left:0;
-    border-width:.2rem;
-}
-.bd-afrika{
-    position: relative;
+    position: right;
     padding:1rem;
     margin:1rem -15px 0;
     border:solid #ac639e;
     border-width: .2rem 0 0;
 }
+.d-block{
+    display: block!important;
+}
+w-100{
+    width:100%!important;
+}
+*,::after, ::before{
+    box-sizing: border-box;
+}
+.d-none{
+    display: none!important;
+}
+li {
+    display: list-item;
+    text-align:-webkit-match-parent;
+}
+ol{
+    display: block;
+    list-style-type:decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    padding-inline-start: 40px;
+}
+@media  (min-width:576px)
+.bd-afrika{
+    padding: 1.5rem;
+    margin-right: 0;
+    margin-left:0;
+    border-width 0.1;rem;
+}
+@include media-breakpoint-up (sm) {
+    padding: 1.5rem;
+    margin-right: 0;
+    margin-left: 0;
+    border-width: 2rem;
+}
+/*--------------------------------------------------------------images*/
+.bd-afrika > img{
+    +img {
+        margin-left: .5rem
+    }
+}
+/*--------------------------------------------------------buttons*/
+
+.bd-afrika{
+    >.btn-group {
+        margin-top:..25rem;
+        margin-bottom:.25rem;
+    }
+}
+> .btn-toolbar + .btn-toolbar {
+    margin-top: .5rem;
+}
+
 /*-------------------------------------------------------------Skills */
 .progress{
     position: absolute;
