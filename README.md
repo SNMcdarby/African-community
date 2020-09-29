@@ -2,8 +2,10 @@
 
 # Mama Afrika
 -------------
-###  This is a site that elaborates about the modern african fashion design that are originated from cultural african farbic known as Kitenge. Some of the African countries where kitenge is worn are
- ### Kenya, Uganda, Tanzania, Sudan, Nigeria, Cameroon, Ghana, Senegal, Liberia, Rwanda, and Democratic Republic of the Congo.
+###  Is platform that shows cases different authensity in modern african fashion designs 
+### originally made and desinged by african designers using african african farbic such as Kitenge. 
+ ### Some of the this countries are; Kenya, Uganda, Tanzania, Sudan, 
+ ### Nigeria, Cameroon, Ghana, Senegal, Liberia, Rwanda, and Democratic Republic of the Congo.
 
 
 ## 1.KITENGE 
