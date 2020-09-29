@@ -65,13 +65,14 @@ h4 {
     margin-top: 25px;
     scroll-margin-bottom: 40px;
 }
+
 /*-------------------------------------------------------------Headings*/
 header {
     margin: 0;
 }
 
 .heading{
-    margin: 100px;
+    margin: 50px;
 }
 
 .logo {
@@ -141,13 +142,13 @@ header {
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 800;
     letter-spacing: 2px;
 }
 /*-------------------------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(24, 31, 2, 0.904);
     height: 120px;
 }
 
@@ -160,7 +161,7 @@ footer {
 }
 .cv-pdf{
     font-size: 18px;
-    color: #fafafa;
+    color: #0c0b0b;
     text-align: center;
     padding-left: 5px;
     transition: all 0.35s ease-in-out; 
