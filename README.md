@@ -2,7 +2,7 @@
 
 # Mama Afrika
 -------------
-###  Is platform that shows cases different authensity in modern african fashion designs 
+###  Is platform that show-cases different authenticity in modern african fashion designs 
 ### originally made and desinged by african designers using african african farbic such as Kitenge. 
  ### Some of the this countries are; Kenya, Uganda, Tanzania, Sudan, 
  ### Nigeria, Cameroon, Ghana, Senegal, Liberia, Rwanda, and Democratic Republic of the Congo.
