@@ -3,19 +3,19 @@
 /*-------------------------------------------------------------Colours*/
 
 .bg-name-color-title {
-    background-color: #8ed2fa;
+    background-color: #9b7d8d;
 }
 .ui-menu-color-home {
-    background-color: #ac639e;
+    background-color: #8d3c62;
 }
 .ui-menu-color-kitenge{
-    background-color: #9c9b3a;
+    background-color: #9c7780;
  }
 .ui-menu-color-contact{
-    background-color: #7595fdf5;
+    background-color: #b87b9cf5;
 }
 .ui-menu-color-fashiondesign {
-    background-color: #a35757de;
+    background-color: #683756de;
 }
 .bg-color-three-reasons{
     background: #fff;
@@ -27,7 +27,7 @@
     background-color: #f0d7d7;
 }
 .bg-color-work-history{
-  background-color: #94d4f1;
+  background-color: #9b7d8d;
 }
 /*----------------------------------*/
 
@@ -126,13 +126,13 @@ header {
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color: #fff;
+    color: rgb(8, 8, 8);
     height: 120px;
 }
 .menuitem a i {
     padding-top: 22px;
     display: block;
-    color: #fafafa;
+    color: #eeebec;
     font-size: 26px;
 }
 .menuitem span{
@@ -154,7 +154,7 @@ header {
 
 /*-------------------------------------------------------------Footer*/
 footer {
-    background-color: #8ed2fa;
+    background-color: #9b7d8d;
     color: #070707;
     min-height: 120px;
     margin: 0;
@@ -239,6 +239,68 @@ margin-bottom: 15px;
     position: relative;
     width: 60%;
 }
+/*-------------------------------------------------------carosel*/
+.carousel-indicators{
+    position: absolute;
+    right: 0;
+    bottom:10px;
+    left: 0;
+    z-index: 15;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left:15%
+    list-style: none;
+    }
+.carousel-item{
+    position: relative;
+    display: none;
+    -webkit-box-align: right;
+    -ms-overflow-style: center;
+    align-items: center;
+    width: 100%;
+    transition: -webkit-transfoam .6s ~ ease;
+    transition: transfoam .6s ~ ease;
+    transition: transfoam .6s ~ ease, -webkit-transfoam .6s ~ ease;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 100px;
+}
+.carousel-inner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+*,::after,::before {
+    box-sizing: border-box;
+}
+div{
+    display: box;
+}
+.d-block{
+    display: block!important;
+}
+img{
+    vertical-align: middle;
+    border-style:none;
+}
+@media  (min-width:576px)
+.bd-afrika{
+    padding: 1.5rem;
+    margin-right: 0;
+    margin-left:0;
+    border-width:.2rem;
+}
+.bd-afrika{
+    position: relative;
+    padding:1rem;
+    margin:1rem -15px 0;
+    border:solid #ac639e;
+    border-width: .2rem 0 0;
+}
 /*-------------------------------------------------------------Skills */
 .progress{
     position: absolute;
@@ -265,6 +327,28 @@ margin-bottom: 15px;
     margin-bottom: 50px;
 }
 
+.club-ethos{
+    height: 100px; 
+    position: 0 auto:   
+    }
+#left-about{
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+#right-about{
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: red;
+}
+#center-about{
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: silver;
+}
 /*---------------------------------------------------------media queries*/
 @media(min-width: 992px) {
     .center-form {

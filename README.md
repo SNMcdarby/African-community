@@ -8,9 +8,8 @@
 
 ## 1.KITENGE 
 ------------
-- Also known as chitenge in Swahili in plural it is Vitenge. Chitenge is an East African, West African, and Central African fabric similar to sarong, often worn by women and wrapped around the chest or waist, over the head as a headscarf, or as a baby sling. 
-- Kitenges are like kangas and kikoy but are of a thicker cloth and have an edging on only a long side.
-
+- Is a Fabric mainly found in east africa. Kitenge is swahili word in singular form called chitenge and in plural it is Vitenge. 
+- The fashion idea behind it is a new trend found in the market especially in Afrika
 
 ### 2.Table of content
 ---------------------
@@ -52,6 +51,8 @@
 
 ### 4.Description
 --------------------
+- Chitenge is an East African, West African, and Central African fabric similar to sarong, often worn by women and wrapped around the chest or waist, over the head as a headscarf, or as a baby sling. 
+- Kitenges are like kangas and kikoy but are of a thicker cloth and have an edging on only a long side.
 
 
 ### 5.User story
