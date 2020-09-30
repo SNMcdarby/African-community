@@ -3,40 +3,42 @@
 /*-------------------------------------------------------------Colours*/
 
 .bg-name-color-title {
-    background-color: #9b7d8d;
+    background-color: #dae4e1;
 }
 .ui-menu-color-home {
-    background-color: #8d3c62;
+    background-color: #7e9ba1;
 }
 .ui-menu-color-kitenge{
-    background-color: #ee97d4;
+    background-color: #90d0dd;
  }
 .ui-menu-color-contact{
-    background-color: rgb(247, 191, 191);
+    background-color: #4095aa;
 }
 .ui-menu-color-fashiondesign {
-    background-color: #da62aede;
+    background-color: #1eb3ce;
 }
 .bg-color-three-reasons{
-    background: rgb(250, 193, 193);
+    background: #fffefe;;
 }
 .bg-color-personal-info {
- background: #f0d7d7;
+ background: #fdfdfd;
 }
 .bg-color-contact{
-    background-color: #f0d7d7;
+    background-color: #faf9f9;
 }
 .bg-color-work-history{
-  background-color: #9b7d8d;
+  background-color: #fcedf5;
 }
 /*----------------------------------body*/
 body{margin:0;
 font-size:1rem;
 font-weight:400;
 line-height:1.5;
-color: #212526;
-text-align:left;
-background-color: #fff;
+color: #61838b;
+text-align:left
+}
+.background-image:{
+background:cross-fade(../images/chitenge.jpg);
 }
 /*-------------------------------------------------------------Special padding/margins/text */
 h1,
@@ -48,7 +50,7 @@ h4 {
 .uppercase {
     text-transform: uppercase;
 }
-.genral-sub {
+.general-sub {
     font-family: "Exo",sans-serif;
     font-weight: 300;
     color: #fafafa
@@ -87,7 +89,27 @@ header {
     background-position:  center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 300px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+} 
+.logo-1 {
+    background: url("../images/picha2.jpg");
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+} 
+.logo-2 {
+    background: url("../images/picha6.jpg");
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -98,7 +120,7 @@ header {
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px    ;
-    color: #fff;
+    color: rgb(114, 8, 8);
 }
 
 .title{
@@ -107,7 +129,22 @@ header {
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color: #fff;
+    color: rgb(15, 15, 15);
+}
+h1:hover{
+     background-color: #eaf0ea;
+     display: block;
+     display: block;
+}
+h2:hover{
+     background-color: #eaf0ea;
+     display:block;
+     scroll-padding-block: 50px;
+}
+h3:hover{
+    background-color: #eaf0ea;
+    position: right;
+    display: block;
 }
 .list-inline-item:not(:last-child){
     margin: 0;
@@ -139,7 +176,7 @@ header {
 .menuitem a i {
     padding-top: 22px;
     display: block;
-    color: #3a4607;
+    color: #f1f1ef;
     font-size: 26px;
 }
 .menuitem span{
@@ -155,20 +192,20 @@ header {
 /*-------------------------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
-    background: rgba(24, 31, 2, 0.904);
+    background: rgb(114, 8, 8)
     height: 120px;
 }
 
 /*-------------------------------------------------------------Footer*/
 footer {
-    background-color: #9b7d8d;
-    color: #070707;
+    background-color: #c6caca;
+    color: #0c0c0c;
     min-height: 120px;
     margin: 0;
 }
 .cv-pdf{
     font-size: 18px;
-    color: #0c0b0b;
+    color: #fcf9f9;
     text-align: center;
     padding-left: 5px;
     transition: all 0.35s ease-in-out; 
@@ -190,8 +227,8 @@ footer {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
-    background: #f78787;
+    color: #774545;
+    background: #fcfafa;
     transition: all 0.35s ease-in-out; 
     -moz-transition: all 0.35s ease-in-out; 
     -webkit-transition: all 0.35s ease-in-out; 
