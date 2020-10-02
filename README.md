@@ -63,23 +63,43 @@
 
 ### 6.UX
 -------
+- Easy navigation from page to page 
+- Social liks to enable users to share their liknks with friends
 
 
-### 7.Code used
+### 7.Information resource
 -------------
+- stack overflow
+- Code institute
+- Bootstrap4
+- Youtube videos 
+- Github - 
+- Balsamiq
+- w3c
+- Wc3 Markup validator service
+- Colorzilla
+- Pixabay
+- unsplash
+- Bootstrapcdn
+ - Fontawesome
 
 
-  - coding language used are.
-    - CSS
-     - HTML
+### Code snippets
+-------------------
+- coding language used are.
+ - CSS
+ - HTML
+ - code institite 
+ - Bootstrap 
+ - w3c
+ - Css Trick
+ - > TWBScolor
 
 
-### 8.Features
- --------------
 
+ -
 
-
-  ### a.Menu bar 
+  ### a.Pages
   --------------
 
  - The page consists of four pages
@@ -138,7 +158,7 @@
 [www.validator.w3.org](https://validator.w3.org/#validate_by_input)
 
 - Troubleshooting
-# Home         | About us         | Contact us          | images
+# Testing        | User          | Feedback         | Solution
 ---------------|------------------|---------------------|-------------------
 ---------------|------------------|---------------------|-------------------
 ---------------|------------------|---------------------|-------------------
@@ -157,9 +177,12 @@
 
 ### Built With
 -----------------
- - Gitpod 
+ - Gitpod  IDE
  - Bootstrap4 
+ - Bootstrapcdn
+ - Fontawesome
  - Bootstrapcdn snippets
+
 
 
 
