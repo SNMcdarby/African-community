@@ -1,17 +1,16 @@
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/SNMcdarby/mama-afrika)
 
-# Mama Afrika
+#  MAMA AFRIKA
 -------------
 ###  Is platform that show-cases different authenticity in modern African fashion designs 
 
-/* made a few changes to edit 
 
-## 1.KITENGE 
+## KITENGE 
 ------------
 - Is a Fabric mainly found in east africa. Kitenge is swahili word in singular form called chitenge and in plural it is Vitenge. 
 - The fashion idea behind it is a new trend found in the market especially in Afrika
 
-### 2.Table of content
+### Table of content
 ---------------------
 - Overview
 - Description
@@ -36,7 +35,7 @@
 
 
 
-### 3.Overview
+### Overview
 -------------
 
  -  A user friendly site that shows diversity of African fashion that is beging to emerge into our modern culture.
@@ -49,25 +48,26 @@
     - Getting feedback information from our users
     - Displaying modern images in our pages that will capture different demographics
 
-### 4.Description
+### Description
 --------------------
 - Chitenge is an East African, West African, and Central African fabric similar to sarong, often worn by women and wrapped around the chest or waist, over the head as a headscarf, or as a baby sling. 
 - Kitenges are like kangas and kikoy but are of a thicker cloth and have an edging on only a long side.
+- This site show cases the dirent origin of Afrcan fabric and their new desings
 
 
-### 5.User story
+### User story
 ------------
 
 
 
 
-### 6.UX
+### UX
 -------
 - Easy navigation from page to page 
 - Social liks to enable users to share their liknks with friends
 
 
-### 7.Information resource
+### Information resource
 -------------
 - stack overflow
 - Code institute
@@ -93,28 +93,28 @@
  - Bootstrap 
  - w3c
  - Css Trick
- - > TWBScolor
+ - TWBScolor
 
 
 
  -
 
-  ### a.Pages
+  ### Pages
   --------------
 
  - The page consists of four pages
   
-    1. Home
+    1. > Home
 
-    2. Kitenge
+    2. > Kitenge
 
-    3. Contact us
+    3. > Contact us
 
-    4. Images
+    4. > Images
 
 
 
-### b.links
+### links
 ----------
 
 
@@ -135,20 +135,22 @@
  - Testing
 
 
-### c.Learning references
+### Learning references
 -------------------------------
 
 
 
-### d.Running the test 
+### Running the test 
 ------------------------
  - a copy of the workflow
 
 
 
 
-### e.Coding platform
+### Coding platform
 ---------------------------
+- - code was written in the Gitpod IDE platform 
+- - The code is stored in Github [ github](https://github.com/SNmcdarby1?tab=repositories)
 
 
 
@@ -182,6 +184,7 @@
  - Bootstrapcdn
  - Fontawesome
  - Bootstrapcdn snippets
+ - 
 
 
 
