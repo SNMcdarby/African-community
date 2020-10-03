@@ -6,16 +6,16 @@
     background-color: #dae4e1;
 }
 .ui-menu-color-home {
-    background-color: #7e9ba1;
+    background-color: #b43e3e;
 }
 .ui-menu-color-kitenge{
-    background-color: #90d0dd;
+    background-color: #e9a0bd;
  }
 .ui-menu-color-contact{
-    background-color: #4095aa;
+    background-color: #c78d8d;
 }
 .ui-menu-color-gallery {
-    background-color: #1eb3ce;
+    background-color: #d16977;
 }
 .bg-color-three-reasons{
     background: #fffefe;;
@@ -29,17 +29,7 @@
 .bg-color-work-history{
   background-color: #fcedf5;
 }
-/*----------------------------------body*/
-body{margin:0;
-font-size:1rem;
-font-weight:400;
-line-height:1.5;
-color: #61838b;
-text-align:left
-}
-.background-image:{
-background:cross-fade(../images/chitenge.jpg);
-}
+
 /*-------------------------------------------------------------Special padding/margins/text */
 h1,
 h2,
@@ -64,7 +54,7 @@ h4 {
 }
 .section-column{
     display: table-cell;
-    padding: 0, 30px, 30px;
+    padding: 0, 30px;
     float: none;
 } 
 .history-heading,
@@ -129,7 +119,7 @@ header {
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px    ;
-    color: rgb(114, 8, 8);
+    color: rgba(230, 25, 161, 0.938);
 }
 
 .title{
@@ -138,22 +128,16 @@ header {
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color: rgb(15, 15, 15);
+    color: rgba(228, 38, 13, 0.966);
 }
 h1:hover{
-     background-color: #eaf0ea;
-     display: block;
-     display: block;
+     background-color: #531d3be8;
+     display: inline-block;  
 }
-h2:hover{
-     background-color: #eaf0ea;
-     display:block;
-     scroll-padding-block: 50px;
 }
 h3:hover{
-    background-color: #eaf0ea;
-    position: right;
-    display: block;
+    background-color: rgb(25, 32, 25);
+    display:block;
 }
 .list-inline-item:not(:last-child){
     margin: 0;
@@ -161,7 +145,9 @@ h3:hover{
 .menucontainer{
     font-size: 0;
 }
-
+.image-1{
+    max-block-size: 30%
+}
 #nav{
     margin: 0;
 }
@@ -179,7 +165,7 @@ h3:hover{
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color: rgb(8, 8, 8);
+    color: rgb(240, 236, 236);
     height: 120px;
 }
 .menuitem a i {
@@ -190,7 +176,7 @@ h3:hover{
 }
 .menuitem span{
     display: block;
-    width: 100;
+    width: 100%;
     padding-top: 5px;
     text-align: center;
     text-transform: uppercase;
@@ -201,7 +187,7 @@ h3:hover{
 /*-------------------------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
-    background: rgb(114, 8, 8)
+    background: rgb(216, 197, 197);
     height: 120px;
 }
 
@@ -292,69 +278,6 @@ margin-bottom: 15px;
     position: relative;
     width: 60%;
 }
-/*-------------------------------------------------------slide*/
-.slide-container{
-    width: 800px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    text-align: center;
-}
-.image-container{
-    width:2400px;
-    height: 600px;
-    position: relative;
-    transition: left 2s
-    -webkit-transition: left 2s;
-    -moz-transition: left 2s
-    -o-transition: :left 2s;
-}
-.slider-image{
-    float: left;
-    margin: 0px;
-    padding: 0px;
-}
-.slide-button{
-    display: inline-block;
-    height: 10px;
-    width: 10px;
-    border-radius: 5px;
-    background-color: #3b2020;
-}
-#slider-image-1:target ~ .image-container{
-    left: 0px;
-}
-#slider-image-2:target ~ .image-container{
-    left: -800px;
-}
-#slider-image-3:target ~ .image-container{
-    left: -1600px;
-}
-#slider-image-4:target ~ .image-container{
-    left: -2400px;
-}
-
-
-
-/*--------------------------------------------------------------images*/
-.bd-afrika > img{
-    +img {
-        margin-left: .5rem
-    }
-}
-/*--------------------------------------------------------buttons*/
-
-.bd-afrika{
-    >.btn-group {
-        margin-top:..25rem;
-        margin-bottom:.25rem;
-    }
-}
-> .btn-toolbar + .btn-toolbar {
-    margin-top: .5rem;
-}
-
 /*-------------------------------------------------------------Skills */
 .progress{
     position: absolute;
@@ -370,7 +293,7 @@ margin-bottom: 15px;
     background-color: rgba(25, 25, 25, 0.2);
 }
 .progress-section{
-    margin: 40px, 20px; 
+    margin: 40px 20px; 
 }
 
 /*-------------------------------------------------------------Work history*/
@@ -383,7 +306,7 @@ margin-bottom: 15px;
 
 .club-ethos{
     height: 100px; 
-    position: 0 auto:   
+    position:auto;   
     }
 #left-about{
     padding-top: 30px;
@@ -408,6 +331,6 @@ margin-bottom: 15px;
     .center-form {
     padding-top: 30px;
     min-height: 240px;
-    margin: 0 auto;
+    margin: 0px , auto;
     max-width: 50;
 }
