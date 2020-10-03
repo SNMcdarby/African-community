@@ -75,7 +75,7 @@ header {
 }
 
 .logo {
-    background: url("../images/mamaafrika.jpg");
+    background: url("../images/picha4.jpg");
     background-position:  center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,11 +85,11 @@ header {
     -webkit-transition: all .5s ease-in-out;
 } 
 .logo-1 {
-    background: url("../images/image-3.jpg");
+    background: url("../images/image-4.jpg");
     background-position:  center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 300px;
+    min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -99,7 +99,7 @@ header {
     background-position:  center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 300px;
+    min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -109,7 +109,7 @@ header {
     background-position:  center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 300px;
+    min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -187,20 +187,22 @@ h3:hover{
 /*-------------------------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
-    background: rgb(216, 197, 197);
+    background: rgb(87, 76, 76);
     height: 120px;
 }
 
+
+}
 /*-------------------------------------------------------------Footer*/
 footer {
-    background-color: #c6caca;
+    background-color: #314242;
     color: #0c0c0c;
     min-height: 120px;
     margin: 0;
 }
 .cv-pdf{
     font-size: 18px;
-    color: #fcf9f9;
+    color: #1b1717;
     text-align: center;
     padding-left: 5px;
     transition: all 0.35s ease-in-out; 
@@ -223,7 +225,7 @@ footer {
     line-height: 7px;
     text-align: center;
     color: #774545;
-    background: #fcfafa;
+    background: #b4aeae;
     transition: all 0.35s ease-in-out; 
     -moz-transition: all 0.35s ease-in-out; 
     -webkit-transition: all 0.35s ease-in-out; 
@@ -333,4 +335,16 @@ margin-bottom: 15px;
     min-height: 240px;
     margin: 0px , auto;
     max-width: 50;
+}
+/*----------------------------CAROUSEL*/
+.corousel-item{
+   -radius: .2rem;
+    z-index: auto;
+    transition: all 0.35s ease-in-out; 
+    -moz-transition: all 0.35s ease-in-out; 
+    -webkit-transition: all 0.35s ease-in-out; 
+    -o-transition: all 0.35s ease-in-out; 
+}
+.slide{
+    background-color: #8789aa
 }
