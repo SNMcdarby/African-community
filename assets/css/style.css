@@ -18,16 +18,16 @@
     background-color: #d16977;
 }
 .bg-color-three-reasons{
-    background: #fffefe;;
+    background: #ece0e0;;
 }
 .bg-color-personal-info {
- background: #fdfdfd;
+ background: #fafafa
 }
 .bg-color-contact{
-    background-color: #faf9f9;
+    background-color: hsl(0, 100%, 97%);
 }
 .bg-color-work-history{
-  background-color: #fcedf5;
+  background-color: #d1c5cc;
 }
 
 /*-------------------------------------------------------------Special padding/margins/text */
@@ -36,6 +36,7 @@ h2,
 h3,
 h4 {
     margin: 0;
+    color: #142221;
 }
 .uppercase {
     text-transform: uppercase;
@@ -43,7 +44,7 @@ h4 {
 .general-sub {
     font-family: "Exo",sans-serif;
     font-weight: 300;
-    color: #fafafa
+    color: #382d2d
 }
 
 .inline-block{
@@ -130,15 +131,10 @@ header {
     margin-bottom: 90px;
     color: rgba(228, 38, 13, 0.966);
 }
-h1:hover{
-     background-color: #531d3be8;
-     display: inline-block;  
+#fabric:hover{
+     background-color: #d1c5cc;
 }
-}
-h3:hover{
-    background-color: rgb(25, 32, 25);
-    display:block;
-}
+
 .list-inline-item:not(:last-child){
     margin: 0;
 }
@@ -165,13 +161,13 @@ h3:hover{
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color: rgb(240, 236, 236);
+    color: rgb(247, 228, 228);
     height: 120px;
 }
 .menuitem a i {
     padding-top: 22px;
     display: block;
-    color: #f1f1ef;
+    color: #f0f0ee;
     font-size: 26px;
 }
 .menuitem span{
@@ -187,7 +183,7 @@ h3:hover{
 /*-------------------------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
-    background: rgb(87, 76, 76);
+    background: rgb(160, 157, 157);
     height: 120px;
 }
 
@@ -195,12 +191,12 @@ h3:hover{
 }
 /*-------------------------------------------------------------Footer*/
 footer {
-    background-color: #314242;
-    color: #0c0c0c;
+    background-color: #215627
+    color: #0ee7cab0;
     min-height: 120px;
     margin: 0;
 }
-.cv-pdf{
+.cv-pdf{f
     font-size: 18px;
     color: #1b1717;
     text-align: center;

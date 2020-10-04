@@ -86,12 +86,10 @@
 
 ### Code snippets
 -------------------
-- coding language used are.
- - CSS
- - HTML
+- coding language used are. html and Css 
+ - Wc3
  - code institite 
- - Bootstrap 
- - w3c
+ - Bootstrap 4
  - Css Trick
  - TWBScolor
 
@@ -120,18 +118,18 @@
 
   * ![alt](https://links)
 
-  * Social links
-
-  * Email processing
+  * Social links [Facebook](), [Snapchat](), [Twitter](), [Youtube](), [Pintrest] (), [Whatsapp](), [Linkedin]()
 
   * Downloading program 
 
-  * About us
-
   * Installation types /* Technology used
 
-    [github ](https://github.com/)
-    [gitpod](https://f4bc8abb-58a7-4a37-b776-a4d955c9ed38.ws-eu01.gitpod.io/#/workspace/mama-afrika)
+  * [github ](https://github.com/)
+    
+  * [gitpod](https://f4bc8abb-58a7-4a37-b776-a4d955c9ed38.ws-eu01.gitpod.io/#/workspace/mama-africa)
+  
+  * [simple image resizer](https://resizeimage.net/)
+
  - Testing
 
 
