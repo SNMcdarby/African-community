@@ -29,7 +29,9 @@
 .bg-color-work-history{
   background-color: #d1c5cc;
 }
-
+.list-group{
+    background-color: #a4b6eb
+}
 /*-------------------------------------------------------------Special padding/margins/text */
 h1,
 h2,
@@ -344,3 +346,19 @@ margin-bottom: 15px;
 .slide{
     background-color: #8789aa
 }
+
+/*------------------------------------------------------- Media*/
+      // Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
