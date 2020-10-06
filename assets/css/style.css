@@ -346,7 +346,20 @@ margin-bottom: 15px;
 .slide{
     background-color: #8789aa
 }
+/*---------------------------------------------youtube*/
+#youtube{
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0px , auto;
+    max-width: 50;
+    z-index: auto;
+    transition: all 0.35s ease-in-out; 
+    -moz-transition: all 0.35s ease-in-out; 
+    -webkit-transition: all 0.35s ease-in-out; 
+    -o-transition: all 0.35s ease-in-out; 
+}
 
+}
 /*------------------------------------------------------- Media*/
       // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
